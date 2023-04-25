@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Image Splitter",
+  "version": "1.0",
+  "description": "将图片切割成四个部分",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Image Splitter"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
